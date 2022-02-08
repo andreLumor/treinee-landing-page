@@ -9,7 +9,6 @@
     "build": "parcel build"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.2.1",
     "parcel": "^2.2.1",
     "postcss": "^8.0.0",
     "postcss-custom-properties": "^12.1.4",
