@@ -7,7 +7,7 @@ html{
   justify-content: center;
   margin-top: var(--body-margin-top);
   border-top: var(--body-border-top) var(--blue);
-  height: 100vh;
+  background-color: var(--bg-color);
 }
 
 .body__title{
@@ -16,4 +16,11 @@ html{
   font-size: var(--title-font-size);
   line-height: var(--title-line-height);
   text-align: center;
+}
+
+.body__content{
+  display: flex;  
+  flex-wrap: wrap;
+  place-content: center;
+  gap: var(--body-content-gap);
 }

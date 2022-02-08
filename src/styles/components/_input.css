@@ -1,0 +1,96 @@
+.input-placeholder{
+  position: relative;
+}
+
+.input{
+  display: inline-block;
+  border: none;
+  font-size: var(--input-font-size);
+  border-radius: var(--input-border-radius);
+  padding: var(--input-padding);
+  font-weight: 20;
+  margin: var(--input-margin);
+  width: var(--input-width);
+  height: var(--input-height);
+}
+
+/*Active input*/
+.input--active{
+  border: var(--border-size) var(--light-blue);
+}
+
+/*Error input*/
+.input--error{
+  background-color: rgba(var(--red-rgb), var(--input-bg-opacity));
+}
+.input--error::-webkit-input-placeholder {
+  color: rgb(var(--red-rgb));
+}
+.input--error:-moz-placeholder {
+  color: rgb(var(--red-rgb));
+
+}
+.input--error::-moz-placeholder {
+  color: rgb(var(--red-rgb));
+}
+.input--error:-ms-input-placeholder { 
+  color: rgb(var(--red-rgb));
+}
+
+
+/*Success input*/
+.input--success{
+  background-color: rgba(var(--green-rgb), var(--input-bg-opacity));
+}
+.input--success::-webkit-input-placeholder {
+  color: rgb(var(--green-rgb));
+}
+.input--success:-moz-placeholder {
+  color: rgb(var(--green-rgb));
+
+}
+.input--success::-moz-placeholder {
+  color: rgb(var(--green-rgb));
+}
+.input--success:-ms-input-placeholder { 
+  color: rgb(var(--green-rgb));
+}
+
+/*Warning input*/
+.input--warning{
+  background-color: rgba(var(--yellow-rgb), var(--input-bg-opacity));
+}
+.input--warning::-webkit-input-placeholder {
+  color: rgb(var(--yellow-rgb));
+}
+.input--warning:-moz-placeholder {
+  color: rgb(var(--yellow-rgb));
+
+}
+.input--warning::-moz-placeholder {
+  color: rgb(var(--yellow-rgb));
+}
+.input--warning:-ms-input-placeholder { 
+  color: rgb(var(--yellow-rgb));
+}
+
+/*Disable input*/
+.input--disabled{
+  opacity: var(--disable-opacity);
+}
+
+/*icons position and color*/
+.input-placeholder i{
+  position: absolute;
+  right: var(--input-icon-right);
+  top: var(--input-icon-top)
+}
+.fa-check {
+  color: rgb(var(--green-rgb));
+}
+.fa-xmark {
+  color: rgb(var(--red-rgb));
+}
+.fa-triangle-exclamation {
+  color: rgb(var(--yellow-rgb));
+}
