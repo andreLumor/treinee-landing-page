@@ -1,12 +1,15 @@
 :root {
   /*colors*/
-  --light-yellow:            #ffe21d;
-  --yellow:                  #ffd21d;
-  --light-blue:              #24afff;
-  --blue:                    #248bff;
-  --light-red:               #f26c6c;
-  --light-green:             #27b667;
-  --white:                   #ffffff;
+  --light-yellow:             #ffe21d;
+  --yellow:                   #ffd21d;
+  --light-blue:               #24afff;
+  --blue:                     #248bff;
+  --red-rgb:                  242,108,108;
+  --green-rgb:                39,182,103;
+  --yellow-rgb:               255,210,29;
+  --white:                    #ffffff;
+  --black:                    #000000;
+  --bg-color:                 #f0f0f0;
 
   /*fonts*/
   --font-montserrat: 'Montserrat', sans-serif;
@@ -14,11 +17,36 @@
   /*font-sizes*/
   --base-font-size:           16px;
   --base-line-height:         1.5;
+
+  --input-font-size:          16px;
+  --input-font-weight:        20;
+  --input-line-height:        1.5;
+  
   --title-font-size:          32px;
   --title-line-height:        3.0;
 
   /*spaces*/
   --body-margin-top:          4em;
   --body-border-top:          1px solid;
+  --body-content-gap:         20px;
+
+  --button-margin:            4px 2px;
+  --button-border-radius:     25px;
+  --button-width:             150px;
+  --button-height:            40px;
+  --border-size:              2px solid;
+
+  --input-margin:             4px 2px;
+  --input-border-radius:      25px;
+  --input-width:              250px;
+  --input-height:             40px;
+  --input-padding:            10px;
+
+  --input-icon-top:           15px;
+  --input-icon-right:         15px;
+
+  /*Opacity*/
+  --input-bg-opacity:         0.2;
+  --disable-opacity:          0.5;
 }
 
