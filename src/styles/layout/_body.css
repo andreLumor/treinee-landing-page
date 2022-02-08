@@ -1,0 +1,19 @@
+html{
+  height: 100vh;
+}
+
+.body {
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--body-margin-top);
+  border-top: var(--body-border-top) var(--blue);
+  height: 100vh;
+}
+
+.body__title{
+  font-family: var(--font-montserrat);
+  color: var(--blue);
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  text-align: center;
+}
