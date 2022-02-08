@@ -6,8 +6,8 @@
   display: inline-block;
   font-size: var(--base-font-size);
   margin: var(--button-margin);
-  border-radius: var(--button-border-radius);;
-  width: var(--button-width);;
+  border-radius: var(--button-border-radius);
+  width: var(--button-width);
   height: var(--button-height);
   background-color: transparent;
 }
