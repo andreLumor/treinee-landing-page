@@ -1,11 +1,9 @@
 @charset 'UTF-8';
 
 
-@import 'settings/settings.css';
+@import 'settings/_settings.css';
 
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
 
-@import 'generic/reset.css';
-
-@import 'layout/body.css';
+@import 'layout/_body.css';
