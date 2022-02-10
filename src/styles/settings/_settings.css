@@ -10,9 +10,11 @@
   --white:                    #ffffff;
   --black:                    #000000;
   --bg-color:                 #f0f0f0;
+  --logo-color:               #4a6abc;
 
   /*fonts*/
   --font-montserrat: 'Montserrat', sans-serif;
+  --font-roboto:     'Roboto', sans-serif;
 
   /*font-sizes*/
   --base-font-size:           16px;

@@ -1,7 +1,7 @@
 .button{
   border: var(--border-size);
   border-color: var(--black);
-  color: var(--black);
+  color: var(--white);
   text-align: center;
   display: inline-block;
   font-size: var(--base-font-size);
@@ -10,6 +10,7 @@
   width: var(--button-width);
   height: var(--button-height);
   background-color: transparent;
+  font-weight: bold;
 }
 
 .button--blue{
@@ -40,4 +41,13 @@
 
 .button--disabled{
   opacity: var(--disable-opacity);
+}
+
+.button--white{
+  border-color: var(--white);
+}
+
+.button--white:hover{
+  background-color: var(--white);
+  color: var(--logo-color);
 }

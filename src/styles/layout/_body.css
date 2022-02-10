@@ -1,26 +1,24 @@
-html{
-  height: 100vh;
+html, .body {
+  height: 100%;
+  
 }
 
 .body {
-  align-items: center;
-  justify-content: center;
-  margin-top: var(--body-margin-top);
-  border-top: var(--body-border-top) var(--blue);
-  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--logo-color);
 }
 
-.body__title{
-  font-family: var(--font-montserrat);
+.body__title {
+  font-family: var(--font-roboto);
   color: var(--blue);
   font-size: var(--title-font-size);
   line-height: var(--title-line-height);
   text-align: center;
 }
 
-.body__content{
+.body__content {
   display: flex;  
   flex-wrap: wrap;
   place-content: center;
-  gap: var(--body-content-gap);
 }
