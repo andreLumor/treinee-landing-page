@@ -8,9 +8,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94fa469b50.js" crossorigin="anonymous"></script>
     <title>Design System</title>
   </head>
   <body class="body">
+
     <h1 class="body__title">Design System</h1>
+
+    <div class="body__content">
+      <button class="button button--blue">STATIC</button>
+      <button class="button button--blue button--blue--hover">HOVERED</button>
+      <button class="button button--blue--pressed">PRESSED</button>
+      <button class="button button--blue--pressed button--disabled">DISABLED</button>
+    </div>
+    <div class="body__content">
+      <button class="button button--yellow">STATIC</button>
+      <button class="button button--yellow button--yellow--hover">HOVERED</button>
+      <button class="button button--yellow--pressed">PRESSED</button>
+      <button class="button button--yellow--pressed button--disabled">DISABLED</button>
+    </div>
+    <br><br>
+
+    <div class="body__content">
+      <input class="input" type="text" placeholder="Static input placeholder">
+      <input class="input input--active" type="text" placeholder="Active input placeholder">
+      <input class="input input--disabled" type="text" placeholder="Disabled input placeholder">
+    </div>
+
+    
+    <div class="body__content">
+      <div class="input-placeholder">
+        <input class="input input--error" type="text" placeholder="Input error!"/>
+        <i class="fa fa-xmark" aria-hidden="true"></i> 
+      </div>
+      <div class="input-placeholder">
+        <input class="input input--success" type="text" placeholder="Input success :)"/>
+        <i class="fa fa-check" aria-hidden="true"></i>
+      </div>
+      <div class="input-placeholder">
+        <input class="input input--warning" type="text" placeholder="This needs your attention">
+        <i class="fa fa-triangle-exclamation" aria-hidden="true"></i>
+      </div>
+    </div>
+    
   </body>
 </html>
